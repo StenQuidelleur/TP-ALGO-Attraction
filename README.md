@@ -24,15 +24,15 @@ Vous êtes engagé en tant qu'ingénieur informaticien pour améliorer l'expéri
 
 **Graphe des zones** : Représente les différentes zones du parc et les chemins pour s'y rendre. Chaque zone est connectée à d'autres zones par des chemins, avec une certaine distance.
 
--> Définir une classe **Plan** avec Vars (zones, liens) / fonction init -> Initialisation du graphe **Plan**.
--> Définir une **fonction ajouterZone**(zone, attractions) qui ajoute une zone et ses attractions au graphe.
--> Définir une **fonction ajouterLien**(zoneA, zoneB, distance) qui ajoute un lien entre deux zones.
+-> Définir une classe **Plan** avec Vars (zones, liens) / fonction init -> Initialisation du graphe **Plan**.   
+-> Définir une **fonction ajouterZone**(zone, attractions) qui ajoute une zone et ses attractions au graphe.   
+-> Définir une **fonction ajouterLien**(zoneA, zoneB, distance) qui ajoute un lien entre deux zones.   
 
 **Hachage des zones** : Fournir un moyen rapide d'accéder à la distance entre deux zones spécifiques ainsi qu'aux attractions disponibles dans ces zones.   
 Utilisez un système de hachage pour retrouver rapidement les informations sur une zone en fonction de son nom. Chaque entrée de la table de hachage devrait permettre d'obtenir la liste des attractions de cette zone ainsi que les distances vers les autres zones.   
 
--> Définir une classe **TableHachageZones** avec Vars (table) / fonction init -> Initialisation de la table de hachage.
--> Définir une **fonction ajouter**(zone, attractions, distances) qui ajoute une zone, ses attractions et ses distances par rapport aux autres zones.
+-> Définir une classe **TableHachageZones** avec Vars (table) / fonction init -> Initialisation de la table de hachage.   
+-> Définir une **fonction ajouter**(zone, attractions, distances) qui ajoute une zone, ses attractions et ses distances par rapport aux autres zones.   
 -> Définir une **fonction rechercher**(zone): Retourne les attractions de la zone et les distances par rapport aux autres zones.  
 
 ---
