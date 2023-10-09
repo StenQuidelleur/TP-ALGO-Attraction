@@ -65,8 +65,8 @@ Créez une fonction qui permet aux visiteurs de planifier leur journée en fonct
 
 ### **5. Parcours d'attractions par niveau de Thrills** :
 
-Chaque attraction du parc est notée sur une échelle de 1 à 10, 1 étant le moins thrilling et 10 étant le plus thrilling. Écrivez une fonction récursive qui, étant donné une zone de départ, retourne une liste d'attractions à visiter dans l'ordre croissant de thrills.
-- **fonction trouverParcours**(zoneDépart)
+Chaque attraction du parc est notée sur une échelle de 1 à 10, 1 étant le moins thrilling et 10 étant le plus thrilling. Écrivez une fonction récursive qui retourne une liste d'attractions à visiter dans l'ordre croissant de thrills.
+- **fonction trouverParcours**(parcours, attrectionNonVisitées)
 
 ---
 
