@@ -58,7 +58,7 @@ Pour améliorer la recherche :
 
 ### **4. Planification d'une journée** :
 
-Créez une fonction qui permet aux visiteurs de planifier leur journée en fonction de leurs préférences en termes de thrills. Cette fonction prendra en compte la durée de chaque attraction et les déplacements entre les zones.
+Créez une fonction qui permet aux visiteurs de planifier leur journée en fonction de leurs préférences en termes de thrills. Cette fonction prendra en compte la durée de chaque attraction.
 - **fonction planifierJournée**(listeAttractions, tempsDisponible, niveauThrillsSouhaité)
 
 ---
