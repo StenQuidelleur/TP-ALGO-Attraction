@@ -17,7 +17,7 @@ Vous êtes engagé en tant qu'ingénieur informaticien pour améliorer l'expéri
 
 **Arbre de décisions** : Afin de guider les visiteurs dans le choix de leur prochaine attraction, mettez en place un arbre de décisions basé sur le niveau de thrills. Les attractions ayant un niveau de thrill inférieur iront à gauche et celles ayant un niveau supérieur iront à droite.
 
--> Définir une classe **Level** avec Vars (niveau, attractions, gauche, droite) / fonction init -> Initialisation du noeud avec un niveau de thrills.
+-> Définir une classe **Level** avec Vars (niveau, attractions, gauche, droite) / fonction init -> Initialisation du noeud avec un niveau de thrills.   
 -> Définir une **fonction ajouterAttraction**(attraction) qui ajoute une attraction au noeud actuel ou à un de ses enfants.   
 * Le noeud à gauche contient des attractions ayant un niveau de sensations fortes inférieur.   
 * Le noeud à droite contient des attractions ayant un niveau de sensations fortes supérieur.   
