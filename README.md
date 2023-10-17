@@ -9,7 +9,7 @@ Vous êtes engagé en tant qu'ingénieur informaticien pour améliorer l'expéri
 
 ---
 
-### **1. Structures de données pour le stockage** :
+### **1. Structures de données pour le stockage** : (6 pts)
 
 **Attraction** : Chaque attraction a un nom, un niveau de thrills (sensations fortes mesuré de 1 à 10), une durée (en minutes) et une zone du parc (ex: "Zone A").
 
@@ -37,7 +37,7 @@ Utilisez un système de hachage pour retrouver rapidement les informations sur u
 
 ---
 
-### **2. Triage des attractions par durée** :
+### **2. Triage des attractions par durée** : (3 pts)
 
 Mettez en œuvre différents algorithmes de tri pour classer les attractions selon leur durée.
 - **fonction triParSelection**(listeAttractions) -> du moins long au plus long
@@ -46,7 +46,7 @@ Mettez en œuvre différents algorithmes de tri pour classer les attractions sel
 
 ---
 
-### **3. Recherche d'attractions** :
+### **3. Recherche d'attractions** : (3 pts)
 
 Afin de permettre aux visiteurs de trouver rapidement une attraction, implémentez :
 - **fonction rechercheLinéaire**(listeAttractions, nomAttraction)
@@ -56,21 +56,21 @@ Pour améliorer la recherche :
 
 ---
 
-### **4. Planification d'une journée** :
+### **4. Planification d'une journée** : (3 pts)
 
 Créez une fonction qui permet aux visiteurs de planifier leur journée en fonction de leurs préférences en termes de thrills. Cette fonction prendra en compte la durée de chaque attraction.
 - **fonction planifierJournée**(listeAttractions, tempsDisponible, niveauThrillsSouhaité)
 
 ---
 
-### **5. Parcours d'attractions par niveau de Thrills** :
+### **5. Parcours d'attractions par niveau de Thrills** : (3 pts)
 
 Chaque attraction du parc est notée sur une échelle de 1 à 10, 1 étant le moins thrilling et 10 étant le plus thrilling. Écrivez une fonction récursive qui retourne une liste d'attractions à visiter dans l'ordre croissant de thrills.
 - **fonction trouverParcours**(parcours, attrectionNonVisitées)
 
 ---
 
-### **5. Reflexions supplémentaires** :
+### **5. Reflexions supplémentaires** : (2 pts)
 
 Comment ces structures et algorithmes interagissent avec le matériel informatique ?
 
